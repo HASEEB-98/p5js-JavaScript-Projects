@@ -1,0 +1,42 @@
+ Commentary for Extension Work:
+
+ Following work is done for Assignment 3- Instagram Filter:
+
+ 1: Option to Upload Image:
+ User can upload the image of their choice from their system. 
+ If the uploaded file is not image, the default image will be shown and message is shown on console "Please upload an image file"
+
+ 2: Option to Dowmload Filtered Image:
+ User can download the filtered image.
+ Once user applied filtered on their image, they have the option to download the filter image. 
+ The name of the downloaded image is the same as the name of imahe user uploaded along with filtered_ at start to distinguish it.
+
+ 3: Option to change the Filter
+ Other than Default filter which is the requirement of the Assignment I have introduced 4 more filters
+ Those filters are:
+ Brightness: THis filter will increase the brightness of image.
+ Inverted: This filter will invert the image
+ Sharpen: This filter will sharpen the image
+ Threshold: This filter will apply threshold on image.
+ In above filters, Brightness and Threshold filters are those where we need to apply loop on image in draw function as we need continuos processing.
+ Although on Default filter which is earlyBirdFilter we apply loop whenever mouse is pressed.
+ In Inverted and Sharpen filter we don't need loop as we compute their value only once.
+
+ 4: How to Change Filter:
+ I have provided two option to change the filter apply on the image.
+ First one: Dropdown => user can select the filter based on the oprion the chosse from the dropdown
+ Second one: Key Pressed => user can press key to change the filter.
+ The Key to Filter relation is given below:
+ Pressed 'd': Default (earlyBirdFilter)
+ Pressed 'b': Brightness
+ Pressed 'i': Inverted
+ Pressed 's': Sharpen
+ Pressed 't': Threshold
+
+ 5: Added label and styling:
+ Label added to distinguish between original and filtered image.
+ Label added for all the buttons and dropdown introduced
+ Style added for dropdown, buttons for upload and dropdown
+
+ 6: Resize the canvas and all the buttons, dropdown and labels
+ Whenever user upload new image, the whole canvas will be resized based on the width and height of the uploaded image.
