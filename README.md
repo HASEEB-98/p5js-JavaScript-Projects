@@ -31,3 +31,7 @@ This project applies filters to any uploaded image, including brightness adjustm
 
 ### Webcam Piano:
 Utilizing the webcam, this project displays movement on screen in a color pattern, potentially resembling piano keys or other interactive elements.
+
+## About the Author
+
+All these projects were developed by Abdul Haseeb. For any inquiries or feedback, please feel free to contact me via ahaseeb11.98@gmail.com
